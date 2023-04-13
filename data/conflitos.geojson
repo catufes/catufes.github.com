@@ -620,7 +620,7 @@
       },
       {
         "type": "Feature",
-        "id": 1,
+        "id": 2,
         "properties": {
           "name": "Morro do Jaburu",
           "anchorOffset": {
@@ -644,7 +644,7 @@
       },
       {
         "type": "Feature",
-        "id": 1,
+        "id": 2,
         "properties": {
           "name": "Morro do Jaburu",
           "anchorOffset": {
