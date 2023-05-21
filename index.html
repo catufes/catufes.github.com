@@ -34,11 +34,11 @@
       },
     };
     Procedural.init({ container, datasource });
-    Procedural.setCameraModeControlVisible(true);
-    Procedural.setCompassVisible(true);
-    Procedural.setUserLocationControlVisible(true);
-    Procedural.setRotationControlVisible(true);
-    Procedural.setZoomControlVisible(true);
+    Procedural.setCameraModeControlVisible(false);
+    Procedural.setCompassVisible(false);
+    Procedural.setUserLocationControlVisible(false);
+    Procedural.setRotationControlVisible(false);
+    Procedural.setZoomControlVisible(false);
     var latitude = -20.297619;
     var longitude = -40.295776;
 
@@ -59,31 +59,32 @@
 
     Procedural.onFeatureClicked = function (id) {
       console.log("Feature clicked:", id);
-      switch (id) {
-        case 1000040:
-          window.open(
-            "http://territoriosdopresente.ufes.br/manguezal-de-vitoria/"
-          );
-        case 1000024:
-          window.open("https://territoriosdopresente.ufes.br/itapua/");
-        case 1000034:
-          window.open("https://territoriosdopresente.ufes.br/canal-da-costa/");
-        case 1000016:
-          window.open(
-            "https://territoriosdopresente.ufes.br/bairro-jesus-de-nazareth/"
-          );
-        case 1000028:
-          window.open(
-            "https://territoriosdopresente.ufes.br/morro-da-fonte-grande/"
-          );
-        case 1000030:
-          window.open("https://territoriosdopresente.ufes.br/po-preto/");
-        case 1000020:
-          window.open("https://territoriosdopresente.ufes.br/jacarenema/");
-        case 1:
-          window.open("http://territoriosdopresente.ufes.br/vale-do-mulemba/");
-        case 2:
-          window.open("https://territoriosdopresente.ufes.br/morro-do-jaburu/");
+      if(id == 1){
+        window.open("http://territoriosdopresente.ufes.br/manguezal-de-vitoria/");
+      }
+      if(id == 2){
+        window.open("https://territoriosdopresente.ufes.br/canal-da-costa/");
+      }
+      if(id == 3){
+        window.open("https://territoriosdopresente.ufes.br/po-preto/");
+      }
+      if(id == 4){
+        window.open("https://territoriosdopresente.ufes.br/morro-da-fonte-grande/");
+      }
+      if(id == 5){
+        window.open("https://territoriosdopresente.ufes.br/itapua/");
+      }
+      if(id == 6){
+        window.open("https://territoriosdopresente.ufes.br/jacarenema/");
+      }
+      if(id == 7){
+        window.open("https://territoriosdopresente.ufes.br/bairro-jesus-de-nazareth/");
+      }
+      if(id == 8){
+        window.open("http://territoriosdopresente.ufes.br/vale-do-mulemba/");
+      }
+      if(id == 9){
+        window.open("https://territoriosdopresente.ufes.br/morro-do-jaburu/");
       }
     };
   </script>
