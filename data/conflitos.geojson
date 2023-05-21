@@ -3,6 +3,7 @@
     "features": [
       {
         "type": "Feature",
+        "id": 1,
         "properties": {
           "name": "Manguezal de Vitória",
           "fontsize": 20,
@@ -27,6 +28,7 @@
       },
       {
         "type": "Feature",
+        "id": 1,
         "properties": {
           "name": "Manguezal de Vitória",
           "fontsize": 50,
@@ -45,6 +47,7 @@
       },
       {
         "type": "Feature",
+        "id": 2,
         "properties": {
           "name": "Canal da Costa",
           "fontsize": 50,
@@ -65,8 +68,9 @@
       },
       {
         "type": "Feature",
+        "id": 2,
         "properties": {
-          "name": "Paneleiras de Goiabeiras",
+          "name": "Canal da Costa",
           "fontsize": 20,
           "anchorOffset": {
             "y": 20,
@@ -158,6 +162,7 @@
       },
       {
         "type": "Feature",
+        "id": 3,
         "properties": {
           "name": "Pó Preto",
           "anchorOffset": {
@@ -175,6 +180,7 @@
       },
       {
         "type": "Feature",
+        "id": 3,
         "properties": {
           "name": "Pó Preto",
           "anchorOffset": {
@@ -296,6 +302,7 @@
       },
       {
         "type": "Feature",
+        "id": 4,
         "properties": {
           "name": "Morro da Fonte Grande",
           "anchorOffset": {
@@ -319,6 +326,7 @@
       },
       {
         "type": "Feature",
+        "id": 4,
         "properties": {
           "name": "Morro da Fonte Grande",
           "anchorOffset": {
@@ -336,6 +344,7 @@
       },
       {
         "type": "Feature",
+        "id": 5,
         "properties": {
           "name": "Itapuã",
           "anchorOffset": {
@@ -359,6 +368,7 @@
       },
       {
         "type": "Feature",
+        "id": 5,
         "properties": {
           "name": "Itapuã",
           "anchorOffset": {
@@ -498,6 +508,7 @@
       },
       {
         "type": "Feature",
+        "id": 6,
         "properties": {
           "name": "Jacarenema",
           "anchorOffset": {
@@ -521,6 +532,7 @@
       },
       {
         "type": "Feature",
+        "id": 6,
         "properties": {
           "name": "Jacarenema",
           "anchorOffset": {
@@ -538,6 +550,7 @@
       },
       {
         "type": "Feature",
+        "id": 7,
         "properties": {
           "name": "Bairro Jesus de Nazareth",
           "anchorOffset": {
@@ -561,6 +574,7 @@
       },
       {
         "type": "Feature",
+        "id": 7,
         "properties": {
           "name": "Bairro Jesus de Nazareth",
           "anchorOffset": {
@@ -578,7 +592,7 @@
       },
       {
         "type": "Feature",
-        "id": 1,
+        "id": 8,
         "properties": {
           "name": "Vale do Mulembá",
           "anchorOffset": {
@@ -602,7 +616,7 @@
       },
       {
         "type": "Feature",
-        "id": 1,
+        "id": 8,
         "properties": {
           "name": "Vale do Mulembá",
           "anchorOffset": {
@@ -620,7 +634,7 @@
       },
       {
         "type": "Feature",
-        "id": 2,
+        "id": 9,
         "properties": {
           "name": "Morro do Jaburu",
           "anchorOffset": {
@@ -644,7 +658,7 @@
       },
       {
         "type": "Feature",
-        "id": 2,
+        "id": 9,
         "properties": {
           "name": "Morro do Jaburu",
           "anchorOffset": {
