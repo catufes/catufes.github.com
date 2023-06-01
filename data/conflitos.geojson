@@ -164,7 +164,7 @@
         "type": "Feature",
         "id": 3,
         "properties": {
-          "name": "Pó Preto",
+          "name": "Camburi",
           "anchorOffset": {
             "y": 90,
             "x": 0
@@ -182,7 +182,7 @@
         "type": "Feature",
         "id": 3,
         "properties": {
-          "name": "Pó Preto",
+          "name": "Camburi",
           "anchorOffset": {
             "y": 20,
             "x": 0
@@ -352,7 +352,7 @@
             "x": 0
           },
           "borderRadius": 32,
-          "image": "/coloniapescadores.JPG",
+          "image": "/itapua.PNG",
           "height": 60,
           "width": 60,
           "borderWidth": 2,
